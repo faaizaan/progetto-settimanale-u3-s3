@@ -5,7 +5,6 @@ const Footer = () => {
     <div className="sticky-bottom w-100 p-2">
       <Container fluid>
         <div className="bg-dark text-light rounded p-3 d-flex justify-content-between align-items-center">
-          {/* Left icon */}
           <div className="d-flex align-items-center">
             <div
               className="bg-secondary rounded d-flex align-items-center justify-content-center"
@@ -20,9 +19,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Controls */}
           <div className="d-flex align-items-center gap-3">
-            {/* Play */}
             <svg
               viewBox="0 0 24 24"
               width="28"
@@ -32,7 +29,6 @@ const Footer = () => {
               <polygon points="6,4 20,12 6,20" />
             </svg>
 
-            {/* Next */}
             <svg
               viewBox="0 0 24 24"
               width="28"
