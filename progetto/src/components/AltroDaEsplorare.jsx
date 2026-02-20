@@ -6,7 +6,7 @@ const AltroDaEsplorare = () => {
   return (
     <>
       <Container fluid className="bg-dark py-3">
-        <h2 className="text-white">Altro da esplorare</h2>
+        <h2 className="text-white mb-3">Altro da esplorare</h2>
         <Row>
           <Col xs={12} md={4} className="my-1 ">
             <div className="d-flex justify-content-between rounded-4 text-danger bg-secondary border border-secondary py-2 px-3">

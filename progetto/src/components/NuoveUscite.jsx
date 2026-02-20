@@ -25,7 +25,7 @@ const NuoveUscite = () => {
   return (
     <>
       <Container fluid className="bg-dark py-3">
-        <h3 className="text-white">Nuove Uscite</h3>
+        <h3 className="text-white mb-3">Nuove Uscite</h3>
         <div className="d-block d-md-none">
           <Row className="g-2 mb-2">
             {data.slice(0, 3).map((res, i) => (

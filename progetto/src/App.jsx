@@ -7,6 +7,7 @@ import NuoveUscite from "./components/NuoveUscite";
 import AltroDaEsplorare from "./components/AltroDaEsplorare";
 import BarraSinistra from "./components/BarraSinistra";
 import Footer from "./components/Footer";
+import MobilePlayer from "./components/MobilePlayer";
 
 function App() {
   return (
@@ -19,11 +20,11 @@ function App() {
 
           <div className="flex-grow-1">
             <div className="d-block d-md-none">
-              <NavBar mobile />
+              <NavBar />
             </div>
 
             <div className="d-none d-md-block">
-              <NavBar desktop />
+              <NavBar />
             </div>
 
             <div>
@@ -44,6 +45,7 @@ function App() {
         <NuoveUscite />
         <AltroDaEsplorare />
         <Footer />
+        <MobilePlayer />
       </div>
     </>
   );

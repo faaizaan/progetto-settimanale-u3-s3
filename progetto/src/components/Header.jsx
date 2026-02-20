@@ -12,7 +12,7 @@ const Header = () => {
 
         <Row className="g-2 scroll-row">
           <Col className="col-card">
-            <h4 className="text-white">NUOVA STAZIONE RADIO</h4>
+            <p className="text-secondary my-0">NUOVA STAZIONE RADIO</p>
             <p className="text-white">
               Rilassati, al resto ci pensiamo noi. Ascolta Apple Music Chill
             </p>
@@ -26,7 +26,7 @@ const Header = () => {
           </Col>
 
           <Col className="col-card">
-            <h4 className="text-white">NUOVA STAZIONE RADIO</h4>
+            <p className="text-secondary my-0">NUOVA STAZIONE RADIO</p>
             <p className="text-white">Ecco la nuova casa della musica latina</p>
             <div className="mt-auto">
               <img

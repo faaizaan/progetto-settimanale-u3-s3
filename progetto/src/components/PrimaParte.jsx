@@ -6,7 +6,7 @@ const PrimaParte = () => {
   return (
     <>
       <Container fluid className="bg-dark py-3">
-        <h4 className="text-white">Nuovi episodi radio {">"}</h4>
+        <h4 className="text-white mb-3">Nuovi episodi radio {">"}</h4>
         <Row className="g-2 row-cols-3 row-cols-md-5">
           <Col className="d-flex flex-column align-items-center px-2 text-white">
             <img
