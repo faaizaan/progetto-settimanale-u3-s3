@@ -52,3 +52,5 @@ function App() {
 }
 
 export default App;
+
+// NON CAPISCO PERCHè IL PLAYER DI SOTTO NON SI TOLGA NEANCHE SE LO ELIMINO QUA DA APP
